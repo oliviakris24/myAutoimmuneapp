@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBAction func call911(_ sender: Any) {
+        let alertController = UIAlertController(title: "Disclaimer", message:
+            "Hello, world!", preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "Accept", style: UIAlertAction.Style.default,handler: nil))
+        self.present(alertController, animated: true, completion: nil)  
     }
     @IBAction func tipsAndTricks(_ sender: Any) {
     }
