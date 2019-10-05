@@ -13,7 +13,10 @@ class ViewController: UIViewController {
         let alertController = UIAlertController(title: "Disclaimer", message:
             "Hello, world!", preferredStyle: UIAlertController.Style.alert)
         alertController.addAction(UIAlertAction(title: "Accept", style: UIAlertAction.Style.default,handler: nil))
-        self.present(alertController, animated: true, completion: nil)  
+        self.present(alertController, animated: true, completion: nil)
+        
+        alertController.addAction(UIAlertAction(title: "Nevermind", style: UIAlertAction.Style.default,handler: nil))
+        
     }
     @IBAction func tipsAndTricks(_ sender: Any) {
     }
