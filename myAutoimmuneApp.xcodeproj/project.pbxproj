@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0516318D2347134500D0717A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516318C2347134500D0717A /* AppDelegate.swift */; };
+		0516318F2347134500D0717A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516318E2347134500D0717A /* SceneDelegate.swift */; };
+		051631912347134500D0717A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051631902347134500D0717A /* ViewController.swift */; };
+		051631942347134500D0717A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051631922347134500D0717A /* Main.storyboard */; };
+		051631962347134A00D0717A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051631952347134A00D0717A /* Assets.xcassets */; };
+		051631992347134A00D0717A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051631972347134A00D0717A /* LaunchScreen.storyboard */; };
+		051631A42347134A00D0717A /* myAutoimmuneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051631A32347134A00D0717A /* myAutoimmuneAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051631A02347134A00D0717A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051631812347134500D0717A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051631882347134500D0717A;
+			remoteInfo = myAutoimmuneApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051631892347134500D0717A /* myAutoimmuneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myAutoimmuneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0516318C2347134500D0717A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0516318E2347134500D0717A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		051631902347134500D0717A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		051631932347134500D0717A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		051631952347134A00D0717A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		051631982347134A00D0717A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0516319A2347134A00D0717A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0516319F2347134A00D0717A /* myAutoimmuneAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myAutoimmuneAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		051631A32347134A00D0717A /* myAutoimmuneAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAutoimmuneAppTests.swift; sourceTree = "<group>"; };
+		051631A52347134A00D0717A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051631862347134500D0717A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0516319C2347134A00D0717A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051631802347134500D0717A = {
+			isa = PBXGroup;
+			children = (
+				0516318B2347134500D0717A /* myAutoimmuneApp */,
+				051631A22347134A00D0717A /* myAutoimmuneAppTests */,
+				0516318A2347134500D0717A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0516318A2347134500D0717A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051631892347134500D0717A /* myAutoimmuneApp.app */,
+				0516319F2347134A00D0717A /* myAutoimmuneAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0516318B2347134500D0717A /* myAutoimmuneApp */ = {
+			isa = PBXGroup;
+			children = (
+				0516318C2347134500D0717A /* AppDelegate.swift */,
+				0516318E2347134500D0717A /* SceneDelegate.swift */,
+				051631902347134500D0717A /* ViewController.swift */,
+				051631922347134500D0717A /* Main.storyboard */,
+				051631952347134A00D0717A /* Assets.xcassets */,
+				051631972347134A00D0717A /* LaunchScreen.storyboard */,
+				0516319A2347134A00D0717A /* Info.plist */,
+			);
+			path = myAutoimmuneApp;
+			sourceTree = "<group>";
+		};
+		051631A22347134A00D0717A /* myAutoimmuneAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				051631A32347134A00D0717A /* myAutoimmuneAppTests.swift */,
+				051631A52347134A00D0717A /* Info.plist */,
+			);
+			path = myAutoimmuneAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051631882347134500D0717A /* myAutoimmuneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051631A82347134B00D0717A /* Build configuration list for PBXNativeTarget "myAutoimmuneApp" */;
+			buildPhases = (
+				051631852347134500D0717A /* Sources */,
+				051631862347134500D0717A /* Frameworks */,
+				051631872347134500D0717A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myAutoimmuneApp;
+			productName = myAutoimmuneApp;
+			productReference = 051631892347134500D0717A /* myAutoimmuneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0516319E2347134A00D0717A /* myAutoimmuneAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051631AB2347134B00D0717A /* Build configuration list for PBXNativeTarget "myAutoimmuneAppTests" */;
+			buildPhases = (
+				0516319B2347134A00D0717A /* Sources */,
+				0516319C2347134A00D0717A /* Frameworks */,
+				0516319D2347134A00D0717A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051631A12347134A00D0717A /* PBXTargetDependency */,
+			);
+			name = myAutoimmuneAppTests;
+			productName = myAutoimmuneAppTests;
+			productReference = 0516319F2347134A00D0717A /* myAutoimmuneAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051631812347134500D0717A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Olivia Kris";
+				TargetAttributes = {
+					051631882347134500D0717A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					0516319E2347134A00D0717A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 051631882347134500D0717A;
+					};
+				};
+			};
+			buildConfigurationList = 051631842347134500D0717A /* Build configuration list for PBXProject "myAutoimmuneApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 051631802347134500D0717A;
+			productRefGroup = 0516318A2347134500D0717A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051631882347134500D0717A /* myAutoimmuneApp */,
+				0516319E2347134A00D0717A /* myAutoimmuneAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051631872347134500D0717A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051631992347134A00D0717A /* LaunchScreen.storyboard in Resources */,
+				051631962347134A00D0717A /* Assets.xcassets in Resources */,
+				051631942347134500D0717A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0516319D2347134A00D0717A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051631852347134500D0717A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051631912347134500D0717A /* ViewController.swift in Sources */,
+				0516318D2347134500D0717A /* AppDelegate.swift in Sources */,
+				0516318F2347134500D0717A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0516319B2347134A00D0717A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051631A42347134A00D0717A /* myAutoimmuneAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		051631A12347134A00D0717A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051631882347134500D0717A /* myAutoimmuneApp */;
+			targetProxy = 051631A02347134A00D0717A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		051631922347134500D0717A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051631932347134500D0717A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		051631972347134A00D0717A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051631982347134A00D0717A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		051631A62347134B00D0717A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		051631A72347134B00D0717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051631A92347134B00D0717A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myAutoimmuneApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.myAutoimmuneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		051631AA2347134B00D0717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myAutoimmuneApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.myAutoimmuneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		051631AC2347134B00D0717A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myAutoimmuneAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.myAutoimmuneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myAutoimmuneApp.app/myAutoimmuneApp";
+			};
+			name = Debug;
+		};
+		051631AD2347134B00D0717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myAutoimmuneAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.myAutoimmuneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myAutoimmuneApp.app/myAutoimmuneApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051631842347134500D0717A /* Build configuration list for PBXProject "myAutoimmuneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051631A62347134B00D0717A /* Debug */,
+				051631A72347134B00D0717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051631A82347134B00D0717A /* Build configuration list for PBXNativeTarget "myAutoimmuneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051631A92347134B00D0717A /* Debug */,
+				051631AA2347134B00D0717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051631AB2347134B00D0717A /* Build configuration list for PBXNativeTarget "myAutoimmuneAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051631AC2347134B00D0717A /* Debug */,
+				051631AD2347134B00D0717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051631812347134500D0717A /* Project object */;
+}
