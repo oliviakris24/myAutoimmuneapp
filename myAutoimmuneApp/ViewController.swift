@@ -10,12 +10,40 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBAction func call911(_ sender: Any) {
-        let alertController = UIAlertController(title: "Disclaimer", message:
-            "Hello, world!", preferredStyle: UIAlertController.Style.alert)
-        alertController.addAction(UIAlertAction(title: "Accept", style: UIAlertAction.Style.default,handler: nil))
+        let alertController = UIAlertController(
+            title: "Wait!",
+            message: "Are you sure?",
+            preferredStyle: UIAlertController.Style.alert
+        )
+        
+        func onClickYes(alert: UIAlertAction!) {
+            if let sugar = URL(string: "tel://\(310)483-2054") {
+                UIApplication.shared.open(sugar)
+            }
+        }
+        
+        
+        
+        alertController.addAction(
+            UIAlertAction(
+                title: "Yes",
+                style: UIAlertAction.Style.default,
+                handler: onClickYes
+            )
+        )
+   
         self.present(alertController, animated: true, completion: nil)
         
-        alertController.addAction(UIAlertAction(title: "Nevermind", style: UIAlertAction.Style.default,handler: nil))
+        
+        
+        alertController.addAction(
+            UIAlertAction(
+                title: "Nevermind",
+                style: UIAlertAction.Style.default,
+                handler: nil
+            )
+        )
+        
         
     }
     @IBAction func tipsAndTricks(_ sender: Any) {

@@ -8,6 +8,30 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="9Uy-DK-Rd6">
+            <objects>
+                <viewController id="g83-SI-fsD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FLh-K7-3uY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kv3-Ql-5tY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="tips and tricks!" id="4NQ-f7-X15"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gK3-eR-2DM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X7t-3G-k10" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-641" y="118"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="myAutoimmuneApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -57,6 +81,7 @@
                                 </state>
                                 <connections>
                                     <action selector="tipsAndTricks:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nS4-os-hXT"/>
+                                    <segue destination="g83-SI-fsD" kind="showDetail" id="Of2-pd-7d3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VH3-S6-IEB">
@@ -130,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abO-z4-Kzn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="913" y="118"/>
+            <point key="canvasLocation" x="911.59420289855075" y="117.85714285714285"/>
         </scene>
     </scenes>
 </document>
