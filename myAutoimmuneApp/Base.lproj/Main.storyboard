@@ -225,37 +225,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWd-lQ-EaK">
-                                <rect key="frame" x="35" y="61" width="344" height="378"/>
+                                <rect key="frame" x="35" y="112" width="344" height="378"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Hi! I'm Olivia Kris, the developer of this app. Thank you so much for downloading/using this app, it means so much to me! For a little background, I created Bliss because of my own struggles with autoimmune conditions as a teenager. I was diagnosed with diabetes at 11 and celiac around 4 years later at 15, which left me with many questions and my own anxieties surrounding my conditions. I had an exceptional team of doctors, but still felt alienated because of my conditions, which intensified through my teenage years. I didn't know many other people with autoimmune conditions besides me, and had to deal with emotional aftermath and that feeling of alienation on my own. Having gone through that alone, I knew wanted to help other teenagers with autoimmune conditions so that they don't have to go through it alone. </string>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkB-MR-tKG">
-                                <rect key="frame" x="35" y="252" width="344" height="427"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Long story short, through the many amazing opportunities and learning experiences I participated in throughout my teenage years, I was able to create this resource! Thanks to programs like Kode With Klossy, a free coding program for girls 13-18 founded by Karlie Kloss, I learned the essential skills of how to code and fell in love with computer science. Once I learned programming languages like Swift for iOS development, I realized that this was what I needed to help people with similar situations to mine. Here, you'll find a safe, supportive place for teenagers with autoimmune conditions, and hopefully, something to make you feel a little less alone through all of it :)</string>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gop-TW-alh">
-                                <rect key="frame" x="53" y="541" width="309" height="138"/>
+                                <rect key="frame" x="53" y="567" width="309" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">A huge thank you to everyone who helped me work on this/helped me get where I am today: Regina Lee, Dr. Jorge Vargas, Karlie Kloss, everyone at Kode With Klossy &lt;3, Katie McCulloch, all my friends who made sure I felt included, mom, dad, and Lilyan.</string>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9lA-1a-yI0">
-                                <rect key="frame" x="87" y="656" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="my signature" translatesAutoresizingMaskIntoConstraints="NO" id="9lA-1a-yI0">
+                                <rect key="frame" x="87" y="680" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="about! " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rht-QQ-Ogq">
                                 <rect key="frame" x="159" y="45" width="97" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkB-MR-tKG">
+                                <rect key="frame" x="35" y="291" width="344" height="427"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Long story short, through the many amazing opportunities and learning experiences I participated in throughout my teenage years, I was able to create this resource! Thanks to programs like Kode With Klossy, a free coding program for girls 13-18 founded by Karlie Kloss, I learned the essential skills of how to code and fell in love with computer science. Once I learned programming languages like Swift for iOS development, I realized that this was what I needed to do, which is to help people with similar situations to mine. Here, you'll find a safe, supportive place for teenagers with autoimmune conditions, and hopefully, something to make you feel a little less alone through all of it :)</mutableString>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -269,4 +269,7 @@
             <point key="canvasLocation" x="911.59420289855075" y="117.85714285714285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="my signature" width="292" height="133"/>
+    </resources>
 </document>
