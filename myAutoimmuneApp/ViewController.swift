@@ -54,6 +54,8 @@ class ViewController: UIViewController {
     @IBAction func about(_ sender: Any) {
     }
    
+    @IBAction func resources(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
