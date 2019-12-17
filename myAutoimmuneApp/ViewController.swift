@@ -47,6 +47,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func tipsAndTricks(_ sender: Any) {
+     
     }
     
     @IBAction func theBasics(_ sender: Any) {

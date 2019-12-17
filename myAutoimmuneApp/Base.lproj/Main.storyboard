@@ -164,6 +164,9 @@
                                 <state key="normal" title="hospitals">
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vCZ-ti-2Id" kind="showDetail" id="tgG-jo-2Da"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQp-k9-IBG">
                                 <rect key="frame" x="39" y="319" width="164" height="30"/>
@@ -174,6 +177,9 @@
                                 <state key="normal" title="little to low-cost">
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="uyX-ym-ugK" kind="showDetail" id="d26-jq-36I"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wr0-Jp-1Uw">
                                 <rect key="frame" x="39" y="272" width="164" height="30"/>
@@ -184,6 +190,9 @@
                                 <state key="normal" title="urgent care">
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="7VS-Ar-1Sm" kind="showDetail" id="jMJ-ae-PXz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAc-bm-jD0">
                                 <rect key="frame" x="39" y="417" width="237" height="38"/>
@@ -208,12 +217,39 @@
             <point key="canvasLocation" x="-626.08695652173913" y="816.96428571428567"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="V6U-FB-SyQ">
+            <objects>
+                <viewController id="vCZ-ti-2Id" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Ij-nT-pRY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="H2C-wL-c85">
+                                <rect key="frame" x="87" y="111" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="sbr-4r-uyz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FYm-vj-mir" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2193" y="817"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="i8I-JF-aL7">
             <objects>
                 <viewController id="JeZ-Nn-Tj5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Jf-l0-haK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ecf-fQ-iXn">
+                                <rect key="frame" x="87" y="68" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="lbr-6L-sE3"/>
                     </view>
@@ -221,6 +257,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UpH-Ek-7UF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1391" y="817"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tsn-Rz-3kK">
+            <objects>
+                <viewController id="uyX-ym-ugK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MPG-aG-nmV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ith-6W-ddH">
+                                <rect key="frame" x="87" y="141" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="A9P-en-5sV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d1R-LI-IcM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1405" y="1481"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KHF-Nn-YfL">
+            <objects>
+                <viewController id="7VS-Ar-1Sm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NIi-0y-nv3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="8j1-EA-197">
+                                <rect key="frame" x="87" y="153" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6wA-i6-kqa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rcg-Wl-91k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-642" y="1481"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iMR-Ps-PNp">
