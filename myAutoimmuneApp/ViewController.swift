@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var mapKit: MKMapView!
     var centralRegion = CLLocationCoordinate2DMake(34.0522, 118.2437)
     
+    
     @IBAction func call911(_ sender: Any) {
         let alertController = UIAlertController(
             title: "Wait!",
@@ -65,7 +66,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        var centralRegion = CLLocationCoordinate2DMake(34.0522, 118.2437)
+ 
     }
 
 
