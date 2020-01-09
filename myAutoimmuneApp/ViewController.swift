@@ -14,11 +14,47 @@ class ViewController: UIViewController {
     @IBOutlet weak var mapKit: MKMapView!
     var centralRegion = CLLocationCoordinate2DMake(34.0522, 118.2437)
     
+    @IBAction func callNSH(_ sender: Any) {
+        let alertController = UIAlertController(
+                title: "Wait!",
+                message: "Call 1-800-273-8255?",
+            preferredStyle:
+            UIAlertController.Style.alert
+        )
+        
+        func onClickYes(alert:
+            UIAlertAction!) {
+            if let gluten = URL(string:
+                "tel://\(800)273-8255)") {
+                
+                UIApplication.shared.open(gluten)
+            }
+        }
+        
+        
+       alertController.addAction(
+        UIAlertAction(
+            title: "Yes",
+            style: UIAlertAction.Style.default,
+            handler: onClickYes
+        )
+        )
+        self.present(alertController, animated: true, completion: nil)
+        
+        alertController.addAction(
+            UIAlertAction(
+                title: "No",
+                style: UIAlertAction.Style.default,
+                handler: nil
+            )
+        )
+        
+    }
     
     @IBAction func call911(_ sender: Any) {
         let alertController = UIAlertController(
             title: "Wait!",
-            message: "Are you sure?",
+            message: "Call 911?",
             preferredStyle: UIAlertController.Style.alert
         )
         
@@ -44,7 +80,7 @@ class ViewController: UIViewController {
         
         alertController.addAction(
             UIAlertAction(
-                title: "Nevermind",
+                title: "No",
                 style: UIAlertAction.Style.default,
                 handler: nil
             )
