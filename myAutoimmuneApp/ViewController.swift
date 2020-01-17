@@ -99,6 +99,13 @@ class ViewController: UIViewController {
    
     @IBAction func resources(_ sender: Any) {
     }
+    
+    
+    @IBAction func reponseLine(_ sender: Any) {
+    }
+    
+    @IBAction func enterButton(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
