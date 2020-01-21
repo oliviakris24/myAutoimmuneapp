@@ -25,7 +25,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCj-eq-kGi">
                                 <rect key="frame" x="20" y="-53" width="374" height="348"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">these are the top 10 most common autoimmune diseases seen in children. click on one to learn more about care, treatment, and resources!</string>
+                                <string key="text">these are the top 10 most common autoimmune diseases seen in children. click on one to learn more about information, treatment, and resources!</string>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -192,24 +192,6 @@
                                 <rect key="frame" x="60" y="574" width="295" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TUe-Jm-p9Z">
-                                <rect key="frame" x="109" y="492" width="196" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="reponseLine:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Gpu-1i-Q0g"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lod-jo-uhU">
-                                <rect key="frame" x="178" y="536" width="58" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="enter"/>
-                                <connections>
-                                    <action selector="enterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6a3-Df-auN"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VH3-S6-IEB">
                                 <rect key="frame" x="231" y="338" width="151" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -243,6 +225,20 @@
                                 </state>
                                 <connections>
                                     <action selector="call911:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GIh-6d-P9u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axj-be-t9v">
+                                <rect key="frame" x="146" y="497" width="130" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="23"/>
+                                <state key="normal" title="donate">
+                                    <color key="titleColor" red="0.52509715025906734" green="0.15242023218503772" blue="0.082154040575854861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.60714863989637302" green="0.19433069393546606" blue="0.058916943979519625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="donateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lbf-gi-YdL"/>
+                                    <segue destination="VSr-Ox-e2U" kind="showDetail" id="trd-kL-Jfz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -395,6 +391,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5MD-gP-qaB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="799.55357142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="02E-T8-7ie">
+            <objects>
+                <viewController id="VSr-Ox-e2U" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cCp-Fk-Iw2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.99196886672175588" blue="0.69561971563961222" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="I5n-Yf-C1m"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c9Y-1S-aWC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="925" y="813"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HRB-jy-OO2">

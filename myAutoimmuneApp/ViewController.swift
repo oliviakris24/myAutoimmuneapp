@@ -100,11 +100,9 @@ class ViewController: UIViewController {
     @IBAction func resources(_ sender: Any) {
     }
     
-    
-    @IBAction func reponseLine(_ sender: Any) {
-    }
-    
-    @IBAction func enterButton(_ sender: Any) {
+
+    @IBAction func donateButton(_ sender: Any) {
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
