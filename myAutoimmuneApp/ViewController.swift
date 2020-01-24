@@ -5,14 +5,13 @@
 //  Created by Olivia Kris on 10/3/19.
 //  Copyright © 2019 Olivia Kris. All rights reserved.
 //
-
 import UIKit
 import MapKit
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var mapKit: MKMapView!
-    var centralRegion = CLLocationCoordinate2DMake(34.0522, 118.2437)
+    var centralRegion = CLLocationCoordinate2D (latitude: 34.0522, longitude: 118.2437)
     
     @IBAction func callNSH(_ sender: Any) {
         let alertController = UIAlertController(
