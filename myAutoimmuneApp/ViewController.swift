@@ -101,7 +101,6 @@ class ViewController: UIViewController {
     
 
     @IBAction func donateButton(_ sender: Any) {
-        
     }
     override func viewDidLoad() {
         super.viewDidLoad()

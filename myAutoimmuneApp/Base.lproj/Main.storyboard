@@ -10,9 +10,9 @@
         <!--View Controller-->
         <scene sceneID="9Uy-DK-Rd6">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="g83-SI-fsD" sceneMemberID="viewController">
+                <viewController id="g83-SI-fsD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FLh-K7-3uY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDI-Hb-dWx">
@@ -65,12 +65,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="do9-1p-jUH">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="1" green="0.75083983970000001" blue="0.79083236400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="tips n tricks!" id="4z4-pa-8Fx">
                                         <barButtonItem key="backBarButtonItem" title="home" id="BKq-UU-Shg"/>
-                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="J82-Id-HgX">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.left" catalog="system" style="plain" id="J82-Id-HgX">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="showDetail" id="314-rd-2LJ"/>
                                             </connections>
@@ -223,21 +224,13 @@
         <!--View Controller-->
         <scene sceneID="GhC-ON-smO">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="wlU-ef-abu" sceneMemberID="viewController">
+                <viewController id="wlU-ef-abu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pxP-LN-hrQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="i feel super overwhelmed. i just got diagnosed with something, and i feel like everything's gonna be different." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pg0-tb-TKD">
-                                <rect key="frame" x="20" y="157" width="284" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.87298145696476603" blue="0.53800639021041996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
-                                <color key="textColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="my autoimmune disease might cause/causes changes in my appearance. what can i do to feel more confident?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7f3-fB-6sJ">
-                                <rect key="frame" x="20" y="621" width="284" height="70"/>
+                                <rect key="frame" x="20" y="557" width="284" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.87298145699999996" blue="0.53800639019999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
@@ -245,34 +238,34 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAS-NF-j2p">
-                                <rect key="frame" x="110" y="235" width="284" height="132"/>
+                                <rect key="frame" x="110" y="199" width="284" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.97042988990000001" green="0.87949696160000002" blue="0.25020154350000001" alpha="0.72956095949999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">that's totally understandable. at first, things will seem crazy, and you'll feel like everything will have to change. the most important thing you can do right now is take care of your health, which is ALWAYS first priority. remember, if you ever feel extremely anxious or overwhelmed to talk to someone you trust. it can be a parent, sibling, or anyone who you know will help you.</string>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
-                                <color key="textColor" red="1" green="0.87298145699999996" blue="0.53800639019999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="11"/>
+                                <color key="textColor" red="0.47601602980000002" green="0.39536680060000001" blue="0.02309893759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXU-nK-HTc">
-                                <rect key="frame" x="110" y="469" width="284" height="132"/>
+                                <rect key="frame" x="110" y="417" width="284" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.97042988990000001" green="0.87949696160000002" blue="0.25020154350000001" alpha="0.72956095949999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">confidential help is available! a great resource are things lke the national suicide hotline, which can be found on the home page (swipe down on this tab, and go to the very bottom). there are also, often times, resources at high schools such as mental and physical health organizations providing resources to students!</string>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
-                                <color key="textColor" red="1" green="0.87298145699999996" blue="0.53800639019999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="11"/>
+                                <color key="textColor" red="0.47601602980000002" green="0.39536680060000001" blue="0.02309893759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bi-Pq-z8w">
-                                <rect key="frame" x="110" y="699" width="284" height="174"/>
+                                <rect key="frame" x="110" y="635" width="284" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.97042988989430057" green="0.87949696155920964" blue="0.25020154352588203" alpha="0.72956095950704225" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">many teens with autoimmune diseases (and without!) feel the same way. the important thing to remember is that you are 100% beautiful and valid no matter what. whether your condition causes weight gain/loss, changes in skin, or any sort of physical change, your condition does not define you or who you are as a person. it can often be difficult to overcome insecurity in yourself, but just remember that looking different really just makes you more unique. if needed, vent. talk to someone, even it is your doctor, a friend, or a family member.</string>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
-                                <color key="textColor" red="1" green="0.87298145699999996" blue="0.53800639019999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="11"/>
+                                <color key="textColor" red="0.47601602979274615" green="0.39536680064562113" blue="0.023098937594598065" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2t-dN-jiH">
-                                <rect key="frame" x="20" y="391" width="284" height="70"/>
+                                <rect key="frame" x="20" y="339" width="284" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.87298145699999996" blue="0.53800639019999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">if i feel really down, but don't feel completely comfortable with telling someone i know and want confidential help, what do i do?</string>
@@ -281,12 +274,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1u5-7G-Y5v">
-                                <rect key="frame" x="0.0" y="34" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="1" green="0.50272916069999996" blue="0.30058759880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="support!" id="tfX-tO-MeJ">
                                         <barButtonItem key="backBarButtonItem" title="home" id="rzi-FW-GqF"/>
-                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="6J5-qj-nDO">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt;" image="chevron.left" catalog="system" style="plain" id="6J5-qj-nDO">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="showDetail" id="60b-CM-YgJ"/>
                                             </connections>
@@ -295,14 +289,22 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="because no matter what you're going through, we all need a little support &lt;3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEM-ao-5c9">
-                                <rect key="frame" x="67" y="78" width="281" height="88"/>
+                                <rect key="frame" x="67" y="44" width="281" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="i feel super overwhelmed. i just got diagnosed with something, and i feel like everything's gonna be different." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pg0-tb-TKD">
+                                <rect key="frame" x="20" y="121" width="284" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.87298145696476603" blue="0.53800639021041996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                                <color key="textColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.50272916067136886" blue="0.30058759882771546" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.50272916069999996" blue="0.30058759880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Wc1-Bd-kuq"/>
                     </view>
                 </viewController>
@@ -313,13 +315,13 @@
         <!--View Controller-->
         <scene sceneID="iMR-Ps-PNp">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="i9w-1t-2KX" sceneMemberID="viewController">
+                <viewController id="i9w-1t-2KX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JmL-nE-aSx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="what IS an autoimmune disease?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeY-5S-Puy">
-                                <rect key="frame" x="24" y="115" width="211" height="124"/>
+                                <rect key="frame" x="20" y="68" width="211" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
@@ -327,7 +329,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="a condition in which your immune system mistakenly attacks your body" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUq-2C-uhr">
-                                <rect key="frame" x="179" y="212" width="219" height="133"/>
+                                <rect key="frame" x="183" y="164" width="219" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98591462090000004" blue="0.7130533469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
@@ -335,7 +337,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="how is this going to affect me? will it affect me?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuC-hm-6NX">
-                                <rect key="frame" x="14" y="588" width="219" height="133"/>
+                                <rect key="frame" x="22" y="566" width="219" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
@@ -343,23 +345,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I got diagnosed with one. what now?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Yw-I2-Q4W">
-                                <rect key="frame" x="20" y="363" width="215" height="114"/>
+                                <rect key="frame" x="20" y="331" width="215" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="depending on what it is, your doctor will tell you what to do next. it could be anything from diets to medication." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UeD-zL-fx5">
-                                <rect key="frame" x="183" y="453" width="211" height="119"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.98591462090000004" blue="0.7130533469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="your life will inevitably change to some extent. still though, there's ways to manage, which is what this app is all about :)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="761-Oa-Taq">
-                                <rect key="frame" x="183" y="696" width="211" height="122"/>
+                                <rect key="frame" x="183" y="675" width="211" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98591462090000004" blue="0.7130533469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
@@ -367,13 +361,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2jj-10-CJ1">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" red="1" green="0.77806256880000002" blue="0.3907015854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="the basics!" id="3Vn-Qz-K9w">
                                         <barButtonItem key="backBarButtonItem" title="home" id="kah-Hu-rUh"/>
-                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="3nb-AX-Tje">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.left" catalog="system" style="plain" id="3nb-AX-Tje">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="showDetail" id="ur0-oB-LRJ"/>
                                             </connections>
@@ -381,6 +375,14 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="depending on what it is, your doctor will tell you what to do next. it could be anything from diets to medication." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UeD-zL-fx5">
+                                <rect key="frame" x="183" y="420" width="211" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.98591462090000004" blue="0.7130533469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.80781995762741188" blue="0.53989883431146568" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="F8o-Ia-d2a"/>
@@ -394,9 +396,9 @@
         <!--View Controller-->
         <scene sceneID="02E-T8-7ie">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="VSr-Ox-e2U" sceneMemberID="viewController">
+                <viewController id="VSr-Ox-e2U" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cCp-Fk-Iw2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQH-FH-Bha">
@@ -408,7 +410,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27J-cu-alQ">
-                                <rect key="frame" x="219" y="298" width="154" height="177"/>
+                                <rect key="frame" x="230" y="298" width="154" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ft-7g-hhW">
+                                <rect key="frame" x="40" y="515" width="154" height="177"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -452,14 +462,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="American Autoimmune " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X89-9Q-I4Y">
-                                <rect key="frame" x="230" y="299" width="141" height="53"/>
+                                <rect key="frame" x="237" y="299" width="141" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 <color key="textColor" red="0.67582172929999995" green="0.010924504349999999" blue="0.0088183936040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ivl-IU-O8c">
-                                <rect key="frame" x="32" y="298" width="155" height="176"/>
+                                <rect key="frame" x="39" y="298" width="155" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.39658798499999998" blue="0.39417987809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -467,19 +477,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://www.aarda.org/donate/" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cg-dy-ZHY">
-                                <rect key="frame" x="234" y="360" width="141" height="88"/>
+                                <rect key="frame" x="236" y="360" width="141" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oJt-Wl-LEg">
-                                <rect key="frame" x="0.0" y="34" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="1" green="0.87187637659999995" blue="0.83034359400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="donate" id="SOR-O6-Yqj">
                                         <barButtonItem key="backBarButtonItem" title="home" id="FGb-vf-Vpp"/>
-                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="6Td-2R-pHP">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.left" catalog="system" style="plain" id="6Td-2R-pHP">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="showDetail" id="nsC-7e-4vO"/>
                                             </connections>
@@ -487,6 +498,28 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Arthritis Foundation" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vaa-HJ-Dxd">
+                                <rect key="frame" x="48" y="279" width="122" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://www.arthritis.org/donate" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTo-he-1Ag">
+                                <rect key="frame" x="48" y="360" width="139" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dM7-5Y-b7L">
+                                <rect key="frame" x="230" y="515" width="156" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.39658798499999998" blue="0.39417987809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.87187637656378891" blue="0.83034359401749036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="I5n-Yf-C1m"/>
@@ -499,13 +532,21 @@
         <!--View Controller-->
         <scene sceneID="HRB-jy-OO2">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Pfe-43-Hvh" sceneMemberID="viewController">
+                <viewController id="Pfe-43-Hvh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wOo-1a-aWD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWd-lQ-EaK">
+                                <rect key="frame" x="35" y="100" width="344" height="378"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hi! I'm Olivia Kris, the developer of this app. Thank you so much for downloading/using this app, it means so much to me! For a little background, I created Bliss because of my own struggles with autoimmune conditions as a teenager. I was diagnosed with diabetes at 11 and celiac around 4 years later at 15, which left me with many questions and my own anxieties surrounding my conditions. I had an exceptional team of doctors, but still felt alienated because of my conditions, which intensified through my teenage years. I didn't know many other people with autoimmune conditions besides me, and had to deal with emotional aftermath and that feeling of alienation on my own. Having gone through that alone, I knew wanted to help other teenagers with autoimmune conditions so that they don't have to go through it alone. </string>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gop-TW-alh">
-                                <rect key="frame" x="53" y="623" width="309" height="138"/>
+                                <rect key="frame" x="53" y="570" width="309" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">A huge thank you to everyone who helped me work on this/helped me get where I am today: Regina Lee, Dr. Jorge Vargas, Karlie Kloss, everyone at Kode With Klossy &lt;3, Katie McCulloch, all my friends who made sure I felt included, mom, dad, and Lilyan.</string>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
@@ -513,27 +554,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="my signature" translatesAutoresizingMaskIntoConstraints="NO" id="9lA-1a-yI0">
-                                <rect key="frame" x="87" y="734" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic of me" translatesAutoresizingMaskIntoConstraints="NO" id="Gm2-8K-E74">
-                                <rect key="frame" x="135" y="110" width="144" height="93"/>
+                                <rect key="frame" x="70" y="681" width="275" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Olivia Kris, Developer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCd-wM-Wl4">
-                                <rect key="frame" x="149" y="849" width="116" height="13"/>
+                                <rect key="frame" x="149" y="769" width="116" height="13"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="11"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S6J-hC-wi4">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="about" largeTitleDisplayMode="always" id="U7v-0n-iM6">
                                         <barButtonItem key="backBarButtonItem" title="home" id="EEQ-zE-48g"/>
-                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="j72-mf-W4C">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="done" id="j72-mf-W4C">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="showDetail" id="oE5-QY-jrF"/>
                                             </connections>
@@ -542,21 +579,17 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkB-MR-tKG">
-                                <rect key="frame" x="35" y="334" width="344" height="427"/>
+                                <rect key="frame" x="35" y="356" width="344" height="292"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Long story short, through the many amazing opportunities and learning experiences I participated in throughout my teenage years, I was able to create this resource! Thanks to programs like Kode With Klossy, a free coding program for girls 13-18 founded by Karlie Kloss, I learned the essential skills of how to code and fell in love with computer science. Once I learned programming languages like Swift for iOS development, I realized that this was what I needed to do, which is to help people with similar situations to mine. Here, you'll find a safe, supportive place for teenagers with autoimmune conditions, and hopefully, something to make you feel a little less alone through all of it :)</string>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWd-lQ-EaK">
-                                <rect key="frame" x="35" y="143" width="344" height="378"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic of me" translatesAutoresizingMaskIntoConstraints="NO" id="Gm2-8K-E74">
+                                <rect key="frame" x="135" y="76" width="144" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Hi! I'm Olivia Kris, the developer of this app. Thank you so much for downloading/using this app, it means so much to me! For a little background, I created Bliss because of my own struggles with autoimmune conditions as a teenager. I was diagnosed with diabetes at 11 and celiac around 4 years later at 15, which left me with many questions and my own anxieties surrounding my conditions. I had an exceptional team of doctors, but still felt alienated because of my conditions, which intensified through my teenage years. I didn't know many other people with autoimmune conditions besides me, and had to deal with emotional aftermath and that feeling of alienation on my own. Having gone through that alone, I knew wanted to help other teenagers with autoimmune conditions so that they don't have to go through it alone. </string>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="qv0-8L-lwG"/>
@@ -568,10 +601,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chevron.left" catalog="system" width="46" height="64"/>
         <image name="my signature" width="292" height="133"/>
         <image name="pic of me" width="1920" height="1280"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oE5-QY-jrF"/>
+        <segue reference="nsC-7e-4vO"/>
     </inferredMetricsTieBreakers>
 </document>
