@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="-642.02898550724638" y="117.85714285714285"/>
         </scene>
-        <!--View Controller-->
+        <!--main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="myAutoimmuneApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="main" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="myAutoimmuneApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -520,6 +520,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5F-Q9-Lck">
+                                <rect key="frame" x="48" y="516" width="139" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" red="0.67582172929999995" green="0.010924504349999999" blue="0.0088183936040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.87187637656378891" blue="0.83034359401749036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="I5n-Yf-C1m"/>
@@ -606,6 +613,6 @@
         <image name="pic of me" width="1920" height="1280"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nsC-7e-4vO"/>
+        <segue reference="314-rd-2LJ"/>
     </inferredMetricsTieBreakers>
 </document>
