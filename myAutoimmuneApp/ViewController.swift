@@ -33,18 +33,18 @@ class ViewController: UIViewController {
         
        alertController.addAction(
         UIAlertAction(
-            title: "Yes",
+            title: "No",
             style: UIAlertAction.Style.default,
-            handler: onClickYes
+            handler: nil
         )
         )
         self.present(alertController, animated: true, completion: nil)
         
         alertController.addAction(
             UIAlertAction(
-                title: "No",
+                title: "Yes",
                 style: UIAlertAction.Style.default,
-                handler: nil
+                handler: onClickYes
             )
         )
         
@@ -67,9 +67,9 @@ class ViewController: UIViewController {
         
         alertController.addAction(
             UIAlertAction(
-                title: "Yes",
+                title: "No",
                 style: UIAlertAction.Style.default,
-                handler: onClickYes
+                handler: nil
             )
         )
    
@@ -79,9 +79,9 @@ class ViewController: UIViewController {
         
         alertController.addAction(
             UIAlertAction(
-                title: "No",
+                title: "Yes",
                 style: UIAlertAction.Style.default,
-                handler: nil
+                handler: onClickYes
             )
         )
         
@@ -101,7 +101,41 @@ class ViewController: UIViewController {
     
 
     @IBAction func donateButton(_ sender: Any) {
+        let alertController = UIAlertController(
+                 title: "Wait!",
+                 message: "Go to webpage for donations?",
+             preferredStyle:
+             UIAlertController.Style.alert
+         )
+         
+         func onClickYes(alert:
+             UIAlertAction!) {
+             if let insulin = URL(string:
         
+                "https://www.aarda.org/donate/") {
+                 
+                 UIApplication.shared.open(insulin)
+             }
+         }
+         
+         
+        alertController.addAction(
+         UIAlertAction(
+             title: "No",
+             style: UIAlertAction.Style.default,
+             handler: nil
+         )
+         )
+         self.present(alertController, animated: true, completion: nil)
+         
+         alertController.addAction(
+             UIAlertAction(
+                 title: "Yes",
+                 style: UIAlertAction.Style.default,
+                 handler: onClickYes
+             )
+         )
+         
     }
     override func viewDidLoad() {
         super.viewDidLoad()

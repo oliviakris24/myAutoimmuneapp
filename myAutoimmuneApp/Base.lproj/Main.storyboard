@@ -490,11 +490,7 @@
                                 <items>
                                     <navigationItem title="donate" id="SOR-O6-Yqj">
                                         <barButtonItem key="backBarButtonItem" title="home" id="FGb-vf-Vpp"/>
-                                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.left" catalog="system" style="plain" id="6Td-2R-pHP">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="showDetail" id="nsC-7e-4vO"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.left" catalog="system" style="plain" id="6Td-2R-pHP"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
