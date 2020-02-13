@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         
        alertController.addAction(
         UIAlertAction(
-            title: "No",
+            title: "Yes",
             style: UIAlertAction.Style.default,
             handler: nil
         )
@@ -88,7 +88,41 @@ class ViewController: UIViewController {
         
     }
     @IBAction func tipsAndTricks(_ sender: Any) {
+     let alertController = UIAlertController(
+              title: "Wait!",
+              message: "Go to webpage for donations?",
+          preferredStyle:
+          UIAlertController.Style.alert
+      )
+      
+      func onClickYes(alert:
+          UIAlertAction!) {
+          if let cava = URL(string:
      
+             "https://www.aarda.org/diseaselist/") {
+              
+              UIApplication.shared.open(cava)
+          }
+      }
+      
+      
+     alertController.addAction(
+      UIAlertAction(
+          title: "No",
+          style: UIAlertAction.Style.default,
+          handler: nil
+      )
+      )
+      self.present(alertController, animated: true, completion: nil)
+      
+      alertController.addAction(
+          UIAlertAction(
+              title: "Yes",
+              style: UIAlertAction.Style.default,
+              handler: onClickYes
+          )
+      )
+      
     }
     
     @IBAction func theBasics(_ sender: Any) {

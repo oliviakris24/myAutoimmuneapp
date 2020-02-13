@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="g83-SI-fsD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FLh-K7-3uY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDI-Hb-dWx">
@@ -109,12 +109,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="22"/>
-                                <state key="normal" title="tips n tricks!">
+                                <state key="normal" title="disease list">
                                     <color key="titleColor" red="0.87580958549222798" green="0.59801250069853229" blue="0.73569908014936181" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="tipsAndTricks:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nS4-os-hXT"/>
-                                    <segue destination="g83-SI-fsD" kind="showDetail" id="iBU-SU-zfd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9A-7v-zpr">
