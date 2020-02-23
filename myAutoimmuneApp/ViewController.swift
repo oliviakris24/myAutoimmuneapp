@@ -10,8 +10,8 @@ import MapKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var mapKit: MKMapView!
-    var centralRegion = CLLocationCoordinate2D (latitude: 34.0522, longitude: 118.2437)
+
+    
     
     @IBAction func callNSH(_ sender: Any) {
         let alertController = UIAlertController(
@@ -88,40 +88,9 @@ class ViewController: UIViewController {
         
     }
     @IBAction func tipsAndTricks(_ sender: Any) {
-     let alertController = UIAlertController(
-              title: "Wait!",
-              message: "Go to webpage for donations?",
-          preferredStyle:
-          UIAlertController.Style.alert
-      )
+        let cava = URL (string: "https://www.aarda.org/diseaselist/")
       
-      func onClickYes(alert:
-          UIAlertAction!) {
-          if let cava = URL(string:
-     
-             "https://www.aarda.org/diseaselist/") {
-              
-              UIApplication.shared.open(cava)
-          }
-      }
-      
-      
-     alertController.addAction(
-      UIAlertAction(
-          title: "No",
-          style: UIAlertAction.Style.default,
-          handler: nil
-      )
-      )
-      self.present(alertController, animated: true, completion: nil)
-      
-      alertController.addAction(
-          UIAlertAction(
-              title: "Yes",
-              style: UIAlertAction.Style.default,
-              handler: onClickYes
-          )
-      )
+        UIApplication.shared.open(cava!)
       
     }
     
@@ -135,40 +104,10 @@ class ViewController: UIViewController {
     
 
     @IBAction func donateButton(_ sender: Any) {
-        let alertController = UIAlertController(
-                 title: "Wait!",
-                 message: "Go to webpage for donations?",
-             preferredStyle:
-             UIAlertController.Style.alert
-         )
-         
-         func onClickYes(alert:
-             UIAlertAction!) {
-             if let insulin = URL(string:
-        
-                "https://www.aarda.org/donate/") {
-                 
-                 UIApplication.shared.open(insulin)
-             }
-         }
-         
-         
-        alertController.addAction(
-         UIAlertAction(
-             title: "No",
-             style: UIAlertAction.Style.default,
-             handler: nil
-         )
-         )
-         self.present(alertController, animated: true, completion: nil)
-         
-         alertController.addAction(
-             UIAlertAction(
-                 title: "Yes",
-                 style: UIAlertAction.Style.default,
-                 handler: onClickYes
-             )
-         )
+       let insulin = URL (string: "https://www.aarda.org/donate/")
+       
+         UIApplication.shared.open(insulin!)
+       
          
     }
     override func viewDidLoad() {
@@ -176,7 +115,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
  
     }
-
 
 }
 
