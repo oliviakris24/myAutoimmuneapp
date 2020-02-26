@@ -8,10 +8,15 @@
 import UIKit
 import MapKit
 
-class ViewController: UIViewController {
-    
 
-    
+class ViewController: UIViewController {
+
+    class MKMapKitView : UIView {
+        @IBOutlet weak var mapKit: MKMapView!
+        struct 
+    }
+   
+ 
     
     @IBAction func callNSH(_ sender: Any) {
         let alertController = UIAlertController(
