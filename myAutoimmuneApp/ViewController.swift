@@ -7,14 +7,11 @@
 //
 import UIKit
 import MapKit
-
+import CoreLocation
 
 class ViewController: UIViewController {
 
-    class MKMapKitView : UIView {
-        @IBOutlet weak var mapKit: MKMapView!
-        struct 
-    }
+
    
  
     
@@ -115,11 +112,16 @@ class ViewController: UIViewController {
        
          
     }
+    @IBOutlet var map: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
- 
-    }
+    
+
+        var centerLocation = CLLocationCoordinate2DMake(34.0522, 118.2437)
+
 
 }
 
+}

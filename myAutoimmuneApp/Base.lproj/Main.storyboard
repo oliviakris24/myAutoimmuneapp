@@ -200,7 +200,7 @@
                                 </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Ozl-JG-0V2">
-                                <rect key="frame" x="65" y="563" width="286" height="180"/>
+                                <rect key="frame" x="65" y="581" width="286" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>
@@ -208,7 +208,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="mapKit" destination="Ozl-JG-0V2" id="i7S-UY-Ioj"/>
+                        <outlet property="map" destination="Ozl-JG-0V2" id="Uhb-fC-6D2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
