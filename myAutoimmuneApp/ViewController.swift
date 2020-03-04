@@ -118,10 +118,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     
-
-        var centerLocation = CLLocationCoordinate2DMake(34.0522, 118.2437)
-
+    class map {
+        var coordinate = CLLocationCoordinate2DMake(34.0522, 118.2437)
+        
 
 }
 
+}
 }
