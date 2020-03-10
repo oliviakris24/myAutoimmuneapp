@@ -6,15 +6,11 @@
 //  Copyright © 2019 Olivia Kris. All rights reserved.
 //
 import UIKit
-import MapKit
-import CoreLocation
+
 
 class ViewController: UIViewController {
-
-
-   
- 
     
+
     @IBAction func callNSH(_ sender: Any) {
         let alertController = UIAlertController(
                 title: "Wait!",
@@ -35,7 +31,7 @@ class ViewController: UIViewController {
         
        alertController.addAction(
         UIAlertAction(
-            title: "Yes",
+            title: "No",
             style: UIAlertAction.Style.default,
             handler: nil
         )
@@ -90,6 +86,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func tipsAndTricks(_ sender: Any) {
+        
         let cava = URL (string: "https://www.aarda.org/diseaselist/")
       
         UIApplication.shared.open(cava!)
@@ -98,6 +95,7 @@ class ViewController: UIViewController {
     
     @IBAction func theBasics(_ sender: Any) {
     }
+    
     @IBAction func about(_ sender: Any) {
     }
    
@@ -112,17 +110,19 @@ class ViewController: UIViewController {
        
          
     }
-    @IBOutlet var map: MKMapView!
+ 
+    @IBAction func takeMeToTheMapLol(_ sender: Any) {
+        let thebestplaceevertraderjoes = URL (string:
+        
+        "http://maps.apple.com/?q=urgent+care+near+me")
+        UIApplication.shared.open(thebestplaceevertraderjoes!)
+        
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    
-    class map {
-        var coordinate = CLLocationCoordinate2DMake(34.0522, 118.2437)
-        
+   
 
-}
-
-}
+    }
 }
