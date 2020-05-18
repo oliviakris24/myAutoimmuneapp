@@ -28,11 +28,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
-                                <state key="normal" title="disease types">
+                                <state key="normal" title="list of diseases">
                                     <color key="titleColor" red="0.87580958549222798" green="0.59801250069853229" blue="0.73569908014936181" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="tipsAndTricks:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nS4-os-hXT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9A-7v-zpr">
+                                <rect key="frame" x="33" y="227" width="172" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="27"/>
+                                <state key="normal" title="the basics!">
+                                    <color key="titleColor" red="0.44418059630000001" green="0.547801804" blue="0.79999190409999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="theBasics:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IDj-LS-5Gz"/>
+                                    <segue destination="i9w-1t-2KX" kind="showDetail" id="ULh-Gg-oiA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3h-AR-6WV">
@@ -41,7 +54,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="22"/>
                                 <state key="normal" title="mental health">
-                                    <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="wlU-ef-abu" kind="showDetail" id="mnd-AM-Nrz"/>
@@ -55,6 +68,9 @@
                                 <state key="normal" title="physical health">
                                     <color key="titleColor" red="0.66598526554404147" green="0.15762203687446974" blue="0.12540015143798022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VSr-Ox-e2U" kind="showDetail" id="GNL-mA-6Od"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="if you need info..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgw-bt-URh">
                                 <rect key="frame" x="33" y="169" width="318" height="35"/>
@@ -93,19 +109,6 @@
                                     <action selector="callNSH:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kii-1M-E4p"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axj-be-t9v">
-                                <rect key="frame" x="33" y="661" width="283" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="23"/>
-                                <state key="normal" title="donate">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" red="0.60714863989637302" green="0.19433069393546606" blue="0.058916943979519625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="donateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lbf-gi-YdL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYA-EI-dM0">
                                 <rect key="frame" x="144" y="752" width="127" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -118,7 +121,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9v-5b-HMx">
-                                <rect key="frame" x="33" y="579" width="283" height="65"/>
+                                <rect key="frame" x="71" y="579" width="283" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="25"/>
@@ -129,17 +132,17 @@
                                     <action selector="takeMeToTheMapLol:" destination="BYZ-38-t0r" eventType="touchUpInside" id="icR-09-y96"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9A-7v-zpr">
-                                <rect key="frame" x="33" y="227" width="172" height="131"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axj-be-t9v">
+                                <rect key="frame" x="71" y="652" width="283" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="27"/>
-                                <state key="normal" title="the basics!">
-                                    <color key="titleColor" red="0.34908767795924817" green="0.50782472536262624" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="23"/>
+                                <state key="normal" title="donate">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.60714863989637302" green="0.19433069393546606" blue="0.058916943979519625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="theBasics:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IDj-LS-5Gz"/>
-                                    <segue destination="i9w-1t-2KX" kind="showDetail" id="ULh-Gg-oiA"/>
+                                    <action selector="donateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lbf-gi-YdL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -151,10 +154,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
         </scene>
-        <!--View Controller-->
+        <!--Mental Health View Controller-->
         <scene sceneID="GhC-ON-smO">
             <objects>
-                <viewController id="wlU-ef-abu" sceneMemberID="viewController">
+                <viewController id="wlU-ef-abu" customClass="MentalHealthViewController" customModule="myAutoimmuneApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pxP-LN-hrQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,7 +165,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="my autoimmune disease might cause/causes changes in my appearance. what can i do to feel more confident?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7f3-fB-6sJ">
                                 <rect key="frame" x="20" y="557" width="284" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.87298145699999996" blue="0.53800639019999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
                                 <color key="textColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -170,7 +173,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAS-NF-j2p">
                                 <rect key="frame" x="110" y="199" width="284" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97042988990000001" green="0.87949696160000002" blue="0.25020154350000001" alpha="0.72956095949999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.98851865049999998" blue="0.69107617249999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">that's totally understandable. at first, things will seem crazy, and you'll feel like everything will have to change. the most important thing you can do right now is take care of your health, which is ALWAYS first priority. remember, if you ever feel extremely anxious or overwhelmed to talk to someone you trust. it can be a parent, sibling, or anyone who you know will help you.</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="11"/>
                                 <color key="textColor" red="0.47601602980000002" green="0.39536680060000001" blue="0.02309893759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -179,17 +182,17 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXU-nK-HTc">
                                 <rect key="frame" x="110" y="417" width="284" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97042988990000001" green="0.87949696160000002" blue="0.25020154350000001" alpha="0.72956095949999999" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">confidential help is available! a great resource are things lke the national suicide hotline, which can be found on the home page (swipe down on this tab, and go to the very bottom). there are also, often times, resources at high schools such as mental and physical health organizations providing resources to students!</string>
+                                <color key="backgroundColor" red="1" green="0.98851865049999998" blue="0.69107617249999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">confidential help is available! a great resource are things lke the national suicide hotline, which can be found on the home page (swipe down on this tab, and go to the very bottom). there are also resources at schools such as mental and physical health organizations providing resources to students!</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="11"/>
                                 <color key="textColor" red="0.47601602980000002" green="0.39536680060000001" blue="0.02309893759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bi-Pq-z8w">
-                                <rect key="frame" x="110" y="635" width="284" height="174"/>
+                                <rect key="frame" x="110" y="635" width="284" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97042988989430057" green="0.87949696155920964" blue="0.25020154352588203" alpha="0.72956095950704225" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">many teens with autoimmune diseases (and without!) feel the same way. the important thing to remember is that you are 100% beautiful and valid no matter what. whether your condition causes weight gain/loss, changes in skin, or any sort of physical change, your condition does not define you or who you are as a person. it can often be difficult to overcome insecurity in yourself, but just remember that looking different really just makes you more unique. if needed, vent. talk to someone, even it is your doctor, a friend, or a family member.</string>
+                                <color key="backgroundColor" red="1" green="0.98851865049999998" blue="0.69107617249999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">many teens with and without autoimmune diseases feel the same way. the important thing to remember is that you are 100% beautiful and valid no matter what. whether your condition causes weight gain/loss, changes in skin, or any sort of physical change, your condition does not define you or who you are as a person. however, it can often be difficult to overcome insecurity in yourself. if needed, vent. talk to someone, even it is your doctor, a friend, or a family member.</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="11"/>
                                 <color key="textColor" red="0.47601602979274615" green="0.39536680064562113" blue="0.023098937594598065" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -197,7 +200,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2t-dN-jiH">
                                 <rect key="frame" x="20" y="339" width="284" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.87298145699999996" blue="0.53800639019999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">if i feel really down, but don't feel completely comfortable with telling someone i know and want confidential help, what do i do?</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
                                 <color key="textColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -206,9 +209,9 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1u5-7G-Y5v">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" red="1" green="0.50272916069999996" blue="0.30058759880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="1" green="0.83770916549999996" blue="0.4747177514" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
-                                    <navigationItem title="support!" id="tfX-tO-MeJ">
+                                    <navigationItem title="mental health!" id="tfX-tO-MeJ">
                                         <barButtonItem key="backBarButtonItem" title="home" id="rzi-FW-GqF"/>
                                         <barButtonItem key="leftBarButtonItem" title="&lt;" image="chevron.left" catalog="system" style="plain" id="6J5-qj-nDO">
                                             <connections>
@@ -222,21 +225,24 @@
                                 <rect key="frame" x="67" y="44" width="281" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="i feel super overwhelmed. i just got diagnosed with something, and i feel like everything's gonna be different." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pg0-tb-TKD">
                                 <rect key="frame" x="20" y="121" width="284" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.87298145696476603" blue="0.53800639021041996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
                                 <color key="textColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.50272916069999996" blue="0.30058759880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.83770916549999996" blue="0.4747177514" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Wc1-Bd-kuq"/>
                     </view>
+                    <connections>
+                        <outlet property="button1" destination="Pg0-tb-TKD" id="Ac0-Eo-s2s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ONE-cs-xzj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -261,9 +267,9 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="a condition in which your immune system mistakenly attacks your body" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUq-2C-uhr">
                                 <rect key="frame" x="183" y="164" width="219" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.98591462090000004" blue="0.7130533469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.43931566451719606" green="0.3859345784175463" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="how is this going to affect me? will it affect me?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuC-hm-6NX">
@@ -285,15 +291,15 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="your life will inevitably change to some extent. still though, there's ways to manage, which is what this app is all about :)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="761-Oa-Taq">
                                 <rect key="frame" x="183" y="675" width="211" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.98591462090000004" blue="0.7130533469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.43931566449999998" green="0.38593457840000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2jj-10-CJ1">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" red="1" green="0.77806256880000002" blue="0.3907015854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.86786134459999997" green="0.87264819689999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="the basics!" id="3Vn-Qz-K9w">
                                         <barButtonItem key="backBarButtonItem" title="home" id="kah-Hu-rUh"/>
@@ -308,13 +314,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="depending on what it is, your doctor will tell you what to do next. it could be anything from diets to medication." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UeD-zL-fx5">
                                 <rect key="frame" x="183" y="420" width="211" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.98591462090000004" blue="0.7130533469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.43931566449999998" green="0.38593457840000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.80781995762741188" blue="0.53989883431146568" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.86786134458092956" green="0.87264819692701279" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="F8o-Ia-d2a"/>
                     </view>
                     <navigationItem key="navigationItem" id="dBb-At-MYw"/>
@@ -328,7 +334,7 @@
             <objects>
                 <viewController id="VSr-Ox-e2U" customClass="MapViewController" customModule="myAutoimmuneApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cCp-Fk-Iw2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oJt-Wl-LEg">
@@ -336,23 +342,16 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <navigationItem title="urgent care!" id="SOR-O6-Yqj">
+                                    <navigationItem title="physical health!" id="SOR-O6-Yqj">
                                         <barButtonItem key="backBarButtonItem" title="home" id="FGb-vf-Vpp"/>
                                         <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.left" catalog="system" style="plain" id="6Td-2R-pHP"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jeZ-dT-R6D">
-                                <rect key="frame" x="0.0" y="44" width="414" height="798"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="I5n-Yf-C1m"/>
                     </view>
-                    <connections>
-                        <outlet property="map" destination="jeZ-dT-R6D" id="3XP-Cb-hoU"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c9Y-1S-aWC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -377,7 +376,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gop-TW-alh">
                                 <rect key="frame" x="53" y="570" width="309" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">A huge thank you to everyone who helped me work on this/helped me get where I am today: Dr. Jorge Vargas, Dr. David Geller, Karlie Kloss, everyone at Kode With Klossy &lt;3, Katie McCulloch, Regina Lee, all my friends/family who made sure I felt included, mom, dad, and Lilyan.</string>
+                                <string key="text">A huge thank you to everyone who helped me work on this/helped me get where I am today: Dr. Jorge Vargas, Dr. David Geller, Karlie Kloss, everyone at Kode With Klossy &lt;3, Mica le John, Katie McCulloch, Regina Lee, all my friends/family who made sure I felt included, mom, dad, and Lilyan.</string>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -435,6 +434,6 @@
         <image name="pic of me" width="1920" height="1280"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oE5-QY-jrF"/>
+        <segue reference="60b-CM-YgJ"/>
     </inferredMetricsTieBreakers>
 </document>

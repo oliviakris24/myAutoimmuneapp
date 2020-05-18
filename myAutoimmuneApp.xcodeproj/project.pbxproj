@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		050265272417211D004F5B84 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050265262417211D004F5B84 /* MapViewController.swift */; };
+		0502652924183DFA004F5B84 /* MentalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502652824183DFA004F5B84 /* MentalHealthViewController.swift */; };
 		0516318D2347134500D0717A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516318C2347134500D0717A /* AppDelegate.swift */; };
 		0516318F2347134500D0717A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516318E2347134500D0717A /* SceneDelegate.swift */; };
 		051631912347134500D0717A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051631902347134500D0717A /* ViewController.swift */; };
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		050265262417211D004F5B84 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0502652824183DFA004F5B84 /* MentalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthViewController.swift; sourceTree = "<group>"; };
 		051631892347134500D0717A /* myAutoimmuneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myAutoimmuneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0516318C2347134500D0717A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0516318E2347134500D0717A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 				0516318E2347134500D0717A /* SceneDelegate.swift */,
 				051631902347134500D0717A /* ViewController.swift */,
 				051631922347134500D0717A /* Main.storyboard */,
-				050265262417211D004F5B84 /* MapViewController.swift */,
+				0502652824183DFA004F5B84 /* MentalHealthViewController.swift */,
 				051631952347134A00D0717A /* Assets.xcassets */,
 				051631972347134A00D0717A /* LaunchScreen.storyboard */,
 				0516319A2347134A00D0717A /* Info.plist */,
@@ -205,8 +205,8 @@
 			files = (
 				051631912347134500D0717A /* ViewController.swift in Sources */,
 				0516318D2347134500D0717A /* AppDelegate.swift in Sources */,
+				0502652924183DFA004F5B84 /* MentalHealthViewController.swift in Sources */,
 				0516318F2347134500D0717A /* SceneDelegate.swift in Sources */,
-				050265272417211D004F5B84 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
