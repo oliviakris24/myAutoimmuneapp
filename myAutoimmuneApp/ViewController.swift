@@ -6,9 +6,10 @@
 //  Copyright © 2019 Olivia Kris. All rights reserved.
 //
 import UIKit
+import MessageUI
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
 
     @IBAction func callNSH(_ sender: Any) {
@@ -120,9 +121,21 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func parents(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
    
 
     }
+    @IBAction func sendEmail(_ sender: UIButton) {
+        func sendEmail() {
+            let composeVC = MFMailComposeViewController()
+            composeVC.mailComposeDelegate = self
+            composeVC.setToRecipients(["oliviakris02@gmail.com"]);
+                composeVC.setSubject("Bliss App Question or Concern!")
+            self.present(composeVC, animated: true, completion: nil)
+        }
+    }
 }
+
